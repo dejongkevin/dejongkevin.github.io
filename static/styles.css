@@ -244,12 +244,20 @@ header {
   display:none;
 }
 
+#samenvatting h1 {
+  font-size: 40px;
+}
+
+#aboutme h1 {
+  font-size:40px;
+}
+
 #werkervaring h1 {
-  width:100%
+  font-size: 40px;
 }
 
 #vaardigheden h1 {
-  width:100%;
+  font-size: 40px;
 }
 
 .fotogebied{
