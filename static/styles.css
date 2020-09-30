@@ -257,5 +257,9 @@ header {
   padding-right: 10%;
   margin: 0% 5%;
 }
-
+  
+.card {
+  margin-left: 0%;
+  margin-right: 0%;
+  }
 }
