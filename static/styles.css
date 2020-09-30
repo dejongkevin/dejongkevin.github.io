@@ -1,0 +1,261 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color:#dddfd4;
+  font-family: 'BioRhyme', serif;
+
+}
+
+.navbar.sticky-top.navbar-light a {
+  color: #173e43;
+  font-family: 'BioRhyme', serif;
+  cursor: pointer;
+}
+
+.navbar.sticky-top.navbar-light a:hover {
+  color:#3fb0ac;
+  transition-duration: 0.3s;
+
+}
+
+#samenvatting {
+  background-color: #dddfd4;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.schrijfgebied {
+  width:65%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.schrijfgebied * {
+  color: #173e43;
+  font-family: 'BioRhyme', serif;
+}
+
+.schrijven {
+  margin: 10% 5%;
+  font-family: 'BioRhyme', serif;
+}
+
+.foto {
+  float: left;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.foto img {
+  width: 100%;
+  height: auto;
+}
+
+.schrijven a {
+  border-color: #173e43;
+  transition-duration: 0.3s;
+  font-family: 'BioRhyme', serif;
+}
+
+.schrijven a:hover {
+  border-color: #173e43;
+  background-color: #3fb0ac;
+  color: #dddfd4;
+}
+
+#aboutme {
+  background-color: #fae596;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.schrijfgebied2 {
+  width:50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  padding: 2%;
+}
+
+
+.schrijfgebied2 *{
+  color: #173e43;
+}
+
+.fotogebied {
+  width:auto;
+  height: 75vh;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.fotogebied img {
+   position: relative;
+   width: auto;
+   height: auto;
+   top: 15%;
+}
+
+.schrijven2 {
+  font-family: 'BioRhyme', serif;
+}
+
+#werkervaring {
+  background-color: #3fb0ac;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#werkervaring * {
+  font-family: 'BioRhyme', serif;
+}
+
+#werkervaring h1 {
+  color: #173e43;
+  padding: 50px 0px;
+  font-family: 'BioRhyme', serif;
+}
+
+.schrijfgebied3 {
+  margin: 0% 10%;
+  margin-bottom: 5%;
+  width: 80%;
+}
+
+.card {
+  background-color: #dddfd4;
+  color: #173e43;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 3%;
+  border: 2px solid #173e43;
+  border-radius:30%;
+}
+
+.card-body {
+  margin: 5% 5%;
+}
+
+.btn.btn-primary {
+  color: black;
+  border-color:#173e43;
+  background-color: #dddfd4;
+  transition-duration: 0.3s;
+}
+
+.btn.btn-primary:hover {
+  border-color:#173e43;
+  background-color: #FFE676;
+}
+
+#vaardigheden {
+  background-color: #173e43;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#vaardigheden h1 {
+  color: #dddfd4;
+}
+
+.wrapper {
+  margin: 0% 10%;
+  margin-bottom: 5%;
+  width: 80%;
+  border: 2px solid #FFE676;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  background-color: #173e43
+}
+
+#vaardigheden * {
+  font-family: 'BioRhyme', serif;
+  color: #dddfd4;
+}
+
+#vaardigheden h1 {
+  color: #F5F5F4;
+  padding: 50px 0px;
+  font-family: 'BioRhyme', serif;
+}
+
+.vaardigheden1 {
+  width:46%;
+  float: left;
+  position: relative;
+  margin: 2%;
+}
+
+.vaardigheden2 {
+  width:46%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  margin:2%;
+}
+
+.vaardigheid {
+  width: 30%;
+  float:left;
+  text-align: left;
+  padding-left: 5px;
+  color: #F5F5F4;
+}
+
+.progress {
+  width:90%;
+  float: left;
+  margin: 5px;
+  background-color: #dddfd4;
+}
+
+.progress-bar {
+  background-color: #FFE676 !important;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+.schrijfgebied {
+  width:100%;
+  height: auto;
+  padding:2% 2%;
+}
+
+.foto {
+  display:none;
+}
+
+.fotogebied{
+  display:none;
+}
+
+.schrijfgebied2{
+  width: 100%;
+  height: auto;
+  padding: 2% 2%;
+  padding-right: 10%;
+  margin: 0% 5%;
+}
+
+}
