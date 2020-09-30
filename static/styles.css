@@ -79,6 +79,7 @@ header {
   overflow: hidden;
 }
 
+
 .schrijfgebied2 {
   width:50%;
   height: 100%;
@@ -232,9 +233,6 @@ header {
   background-color: #FFE676 !important;
 }
 
-
-
-
 @media screen and (max-width: 800px) {
 .schrijfgebied {
   width:100%;
@@ -244,6 +242,14 @@ header {
 
 .foto {
   display:none;
+}
+
+#werkervaring h1 {
+  width:100%
+}
+
+#vaardigheden h1 {
+  width:100%;
 }
 
 .fotogebied{
@@ -257,9 +263,10 @@ header {
   padding-right: 10%;
   margin: 0% 5%;
 }
-  
+
 .card {
   margin-left: 0%;
   margin-right: 0%;
-  }
+}
+
 }
