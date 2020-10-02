@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../static/styles.css">
 	 <!--JS, Popper.js, and jQuery -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="http://code.jquery.com/jquery-2.2.4.min.js"
 			 integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 			 crossorigin="anonymous"></script>
@@ -19,21 +20,24 @@
 
 <header>
 			<nav class="navbar sticky-top navbar-light">
-  			<a class="navbar-brand" href="/">Home</a>
+  			<a class="navbar-brand">Home</a>
 					<ul class="nav justify-content-end">
   					<li class="nav-item">
     					<a id="overmijKnop" class="nav-link">Over mij</a>
   					</li>
   					<li class="nav-item">
-    					<a id="werkervaringKnop" class="nav-link">Werkervaring</a>
+    					<a id="werkervaringKnop" class="nav-link" >Werkervaring</a>
   					</li>
   					<li class="nav-item">
-    					<a id="vaardighedenKnop"class="nav-link">Vaardigheden</a>
+    					<a id="vaardighedenKnop"class="nav-link" >Vaardigheden</a>
   					</li>
 					</ul>
 				</nav>
 			</header>
 <body>
+	<div id="loading">
+		<img id="loading-image" src="images/ajax-loader.gif" alt="Loading..." />
+	  </div>
 
 	  <div id="samenvatting" class="jumbotron-0">
 	    <div class="schrijfgebied">
@@ -42,7 +46,7 @@
 	      <p>Ik ben afgestudeerd in Forensisch ICT(BSc) en op zoek naar een uidaging in IT.
 	      Naast de kennis die ik heb verworven tijdens mijn opleiding, vind ik het leuk om in mijn vrije tijd bezig zijn met het schrijven van scripts
 	      en het automatiseren van dagelijkse bezigheden.</p>
-	      <a id="meerovermijknop" class="btn btn-outline-primary" href="#werkervaring" role="button">Mijn werk</a>
+	      <a id="meerovermijknop" class="btn btn-outline-primary"  role="button">Mijn werk</a>
 				</div>
 	    </div>
 	    <div class="foto">
@@ -116,36 +120,37 @@
 			<div class="wrapper">
 				<div class="vaardigheden1">
 					<div class="vaardigheid">
-						Vaardigheid
+						Python
 					</div>
 					<div class="progress" style="height: 20px">
-  					<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+					  </div>
 							<div class="vaardigheid">
-								Vaardigheid
+								Flask
 							</div>
 								<div class="progress" style="height: 20px">
-  							<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  							<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 								<div class="vaardigheid">
-									Vaardigheid
+									Mobile Forensics
 								</div>
 								<div class="progress" style="height: 20px">
-  							<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  							<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 							<div class="vaardigheid">
-								Vaardigheid
+								Memory forensics
 							</div>
 							<div class="progress" style="height: 20px">
-  						<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  						<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<div class="vaardigheid">
-							Vaardigheid
+							Network forensics
 						</div>
 						<div class="progress" style="height: 20px">
-  					<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  					<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 				</div>
+
 				<div class="vaardigheden2">
 					<div class="vaardigheid">
 						Vaardigheid
@@ -181,8 +186,8 @@
 			</div>
 		</div>
 
-
-
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<script src="../static/apps.js"></script>
 </body>
-<script src="../static/apps.js"></script>
+
 </html>
